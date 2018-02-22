@@ -9,7 +9,7 @@ import java.util.Set;
 
 import org.testng.annotations.DataProvider;
 
-public class Sum3test {
+public class testTriplateSum {
   @Test
   public void f() {
 	  int ar[]={0, -1,-2,1,2};
