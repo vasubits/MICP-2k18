@@ -7,9 +7,10 @@ public class TriplateSum
 	public static Set<Set<Integer>> Sum3(int ar[])
 	{
 		 Set<Set<Integer>> bags = new HashSet<>();
-		 int ans[]= {0},n=ar.length,left,right;
 		 if(ar == null || ar.length<3) //array is NULL or less than two elements;
 			 return null;
+		 int ans[]= {0},n=ar.length,left,right;
+		 
 		 Arrays.sort(ar); //sorting array
 		 for(int i=0;i<n-2;i++) //traversing array for top n-2 elements 
 		 {
